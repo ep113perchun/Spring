@@ -10,28 +10,33 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="rockMusicBeen"
-          class="org.example.RockMusic">
+          class="org.example.RockMusic"
+          scope="prototype"
+          init-method="doMyInit"
+          destroy-method="doMyDestroy"
+          factory-method="fabricMethod">
     </bean>
 
-    <bean id="classicalMusicBeen"
-          class="org.example.ClassicalMusic">
-    </bean>
+<!--    <bean id="classicalMusicBeen"-->
+<!--          class="org.example.ClassicalMusic">-->
+<!--    </bean>-->
 
-    <bean id="repMusicBeen"
-          class="org.example.RepMusic">
-    </bean>
+<!--    <bean id="repMusicBeen"-->
+<!--          class="org.example.RepMusic">-->
+<!--    </bean>-->
 
-    <bean id="musicPlayer"
-          class="org.example.MusicPlayer">
-        <property name="musicList">
-            <list>
-                <ref bean="rockMusicBeen"/>
-                <ref bean="classicalMusicBeen"/>
-                <ref bean="repMusicBeen"/>
-            </list>
-        </property>
-        <property name="name" value="${musicPlayer.name}"/>
-        <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
+<!--    <bean id="musicPlayer"-->
+<!--          class="org.example.MusicPlayer"-->
+<!--          scope="prototype">-->
+<!--        <property name="musicList">-->
+<!--            <list>-->
+<!--                <ref bean="rockMusicBeen"/>-->
+<!--                <ref bean="classicalMusicBeen"/>-->
+<!--                <ref bean="repMusicBeen"/>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--    </bean>-->
 
 </beans>
