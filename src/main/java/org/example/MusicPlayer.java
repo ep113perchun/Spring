@@ -23,12 +23,17 @@ public class MusicPlayer {
     public void setVolume(int volume) {
         this.volume = volume;
     }
+
+    public MusicPlayer(Music music) {
+        this.music = music;
+    }
+
     public void setMusic(Music music) {
         this.music = music;
     }
     public void playMusic(){
-        for (Music a : musicList) {
-            System.out.println("Playing: " + a.getSong());
-        }
+//        for (Music a : musicList) {
+            System.out.println("Playing: " + music.getSong());
+//        }
     }
 }

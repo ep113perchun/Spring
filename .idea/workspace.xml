@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6b50ec12-d178-43e2-8b60-0c2ebef12e0d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RockMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RepMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RepMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -85,7 +86,7 @@
       <workItem from="1700121548471" duration="622000" />
       <workItem from="1700314858120" duration="3488000" />
       <workItem from="1700373702243" duration="2976000" />
-      <workItem from="1700473301120" duration="6896000" />
+      <workItem from="1700473301120" duration="8717000" />
     </task>
     <servers />
   </component>
